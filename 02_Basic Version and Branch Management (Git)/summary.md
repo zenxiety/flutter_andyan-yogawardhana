@@ -1,18 +1,17 @@
 # Summary of Basic Version and Branch Management (Git)
 
-## MATERI
+### Versioning
 
-### Version Control System
-
-- Sejarah
+- Sejarah Version Control System
 
 1. Single User -> Masih localized, satu user saja
 2. Centralized -> Beberapa komputer terhubung dalam satu server
-3. Distributed -> Bisa edit di local, push ke server
+3. Distributed -> Bisa terdistribusi di masing-masing local developer, push ke server
 
 - Git
-  VCS untuk berkolaborasi para developer. Terhubung ke satu remote server untuk synchronize file.
-  Git Repository berisi folder dan files, serta history dan track perubahan
+
+VCS untuk berkolaborasi para developer. Terhubung ke satu remote server untuk synchronize file.
+Git Repository berisi source code, folder, dan files, serta history dan track perubahan.
 
 ### Git
 
@@ -22,10 +21,11 @@
 - Penggunaan .gitignore
 - Branching
   Pembuatan branch, merge, fork, pull request
+  Setiap fitur sebaiknya punya branch sendiri
 - Optimasi penggunaan Git
   - Menggunakan branch development untuk memastikan fitur baru sudah benar sebelum merge ke main
   - Tidak mengganggu branch main
-  - Tidak mengedit langsung di developer
+  - Tidak mengedit langsung di development
   - Merge fitur baru ke development, bukan main
 - Resolve conflict
 
