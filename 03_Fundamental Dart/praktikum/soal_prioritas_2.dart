@@ -1,10 +1,12 @@
 void main() {
   //* 1. Menyambungkan 3 variabel string
-  String satu = "satu";
-  String dua = "dua";
-  String tiga = "tiga";
+  String satu = "one";
+  String dua = "two";
+  String tiga = "three";
   String gabungan = "$satu $dua $tiga";
+  String gabunganOperasi = satu + dua + tiga;
   print(gabungan);
+  print(gabunganOperasi);
 
   //* 2. Volume tabung
   double radius = 2;
