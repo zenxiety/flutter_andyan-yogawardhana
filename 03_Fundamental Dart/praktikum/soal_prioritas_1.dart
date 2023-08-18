@@ -1,13 +1,18 @@
 void main() {
   //* 1. Persegi dan Persegi Panjang
-  print('Keliling Persegi = ${kelilingPersegi(4.4)}');
-  print('Luas Persegi = ${luasPersegi(4.4)}');
-  print('Keliling Persegi Panjang = ${kelilingPersegiPanjang(4.4, 2)}');
-  print('Luas Persegi Panjang = ${luasPersegiPanjang(4.4, 2)}');
+  double sisi = 4.4;
+  print('Keliling Persegi = ${kelilingPersegi(sisi)}');
+  print('Luas Persegi = ${luasPersegi(sisi)}');
+
+  double panjang = 4.4;
+  double lebar = 2;
+  print('Keliling Persegi Panjang = ${kelilingPersegiPanjang(panjang, lebar)}');
+  print('Luas Persegi Panjang = ${luasPersegiPanjang(panjang, lebar)}');
 
   //* 2. Lingkaran
-  print('Keliling Lingkaran = ${kelilingLingkaran(4.4)}');
-  print('Luas Lingkaran = ${luasLingkaran(4.4)}');
+  double radius = 4.4;
+  print('Keliling Lingkaran = ${kelilingLingkaran(radius)}');
+  print('Luas Lingkaran = ${luasLingkaran(radius)}');
 }
 
 // 1. Persegi dan Persegi Panjang

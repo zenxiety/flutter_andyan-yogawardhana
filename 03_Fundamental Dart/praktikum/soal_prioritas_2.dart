@@ -7,7 +7,9 @@ void main() {
   print(gabungan);
 
   //* 2. Volume tabung
-  print("Volume Tabung = ${volumeTabung(2, 4.4)}");
+  double radius = 2;
+  double tinggi = 4.4;
+  print("Volume Tabung = ${volumeTabung(radius, tinggi)}");
 }
 
 // 2. Tabung
