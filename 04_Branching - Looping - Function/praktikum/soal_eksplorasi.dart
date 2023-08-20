@@ -17,7 +17,7 @@ void isPrime(int num) {
   bool isPrime = true;
 
   for (int i = 2; i < num; i++) {
-    // jika ditemukan pembagi selain 1 dan bilangna itu sendiri, maka bilangan tersebut bukan bilangan prima
+    // jika ditemukan pembagi selain 1 dan bilangan itu sendiri, maka bilangan tersebut bukan bilangan prima
     if (num % i == 0) {
       isPrime = false;
       break;
