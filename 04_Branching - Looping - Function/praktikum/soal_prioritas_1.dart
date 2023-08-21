@@ -1,14 +1,18 @@
 void main() {
   //* 1. Percabangan (Branching)
-  int nilai = 30;
-  if (nilai > 70) {
-    print("Nilai A");
-  } else if (nilai > 40) {
-    print("Nilai B");
-  } else if (nilai > 0) {
-    print("Nilai C");
-  } else {
-    print('');
+  int nilai = 70;
+  switch (nilai) {
+    case > 70:
+      print("Nilai A");
+      break;
+    case > 40:
+      print("Nilai B");
+      break;
+    case > 0:
+      print("Nilai C");
+      break;
+    default:
+      print('');
   }
 
   //* 2. Perulangan (Looping)
