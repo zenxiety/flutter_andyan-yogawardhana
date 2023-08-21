@@ -17,7 +17,7 @@ void main() {
 // 1. Fungsi pengecekan palindrom
 void cekPalindrom(String text) {
   // Menghilangkan spasi pada teks untuk memeriksa palindrom tanpa memperhatikan spasi
-  String newText = text.replaceAll(" ", "");
+  String newText = text.replaceAll(" ", "").toLowerCase();
   // Pointer untuk menganalisis kesamaan huruf
   int i = 0; // Huruf pertama
   int j = newText.length - 1; // Huruf terakhir
@@ -42,7 +42,7 @@ void cekPalindrom(String text) {
 void faktorDari(int number) {
   // Iterasi dari 1 hingga bilangan itu sendiri
   // Jika i membagi habis bilangan, maka i adalah faktor dari bilangan tersebut
-  for (int i = 1; i < number; i++) {
+  for (int i = 1; i <= number; i++) {
     if (number % i == 0) print(i);
   }
 }
