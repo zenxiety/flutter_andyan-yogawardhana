@@ -47,6 +47,8 @@ void piramid(int height) {
 
 //* 1.2. Jam Pasir
 void jamPasir(int height) {
+  // menyimpan nilai tinggi setiap bagian segitiga (atas dan bawah)
+  // integer division menghasilkan nilai pembagian yang dibulatkan ke bawah
   int rows = height ~/ 2;
 
   // segitiga bagian atas
@@ -55,7 +57,7 @@ void jamPasir(int height) {
       stdout.write(" ");
     }
 
-    for (int m = 2 * rows; m >= 2 * i; m--) {
+    for (int m = 0; m <= (2 * rows) - (2 * i); m++) {
       stdout.write("0");
     }
 
@@ -63,6 +65,7 @@ void jamPasir(int height) {
   }
 
   // segitiga bagian bawah
+  // +1 untuk include "0" yang ada di bagian tengahjam pasir
   for (int i = 0; i < rows + 1; i++) {
     for (int j = 0; j < rows - i; j++) {
       stdout.write(" ");

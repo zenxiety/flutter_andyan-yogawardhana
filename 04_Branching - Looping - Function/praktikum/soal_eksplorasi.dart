@@ -2,10 +2,8 @@ import 'dart:io';
 
 void main() {
   //* 1. Bilangan Prima
-  String number1 = stdin.readLineSync()!;
-  isPrime(int.parse(number1));
-  String number2 = stdin.readLineSync()!;
-  isPrime(int.parse(number2));
+  String number = stdin.readLineSync()!;
+  isPrime(int.parse(number));
 
   //* Tabel Perkalian
   String nxn = stdin.readLineSync()!;
