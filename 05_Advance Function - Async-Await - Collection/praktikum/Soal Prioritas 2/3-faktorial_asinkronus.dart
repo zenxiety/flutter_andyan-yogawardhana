@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() async {
-  //* 3. Faktorial Asinkronus
+  //* 2.3. Faktorial Asinkronus
   // input angka yang akan dicari nilai faktorialnya
   int num = int.parse(stdin.readLineSync()!);
 

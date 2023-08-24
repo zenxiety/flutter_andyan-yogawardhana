@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  //* E.2. Frekuensi
   List<String> list = [];
 
   // input data setiap elemen ke list
@@ -17,13 +18,11 @@ void main() {
   // map untuk menyimpan nilai frekuensi setiap elemen
   Map<String, int> test = {};
 
-  // menghilangkan duplikasi pada list input untuk mendaftarkan frekuensi setiap elemen ke map
+  // menghilangkan duplikasi pada list input untuk mendaftarkan key setiap elemen ke map untuk menghitung frekuensi
   List<String> distinctList = list.toSet().toList();
 
   // inisiasi map yang menampung frekuensi setiap elemen
-  for (String el in distinctList) {
-    test[el] = 0;
-  }
+  for (String el in distinctList) test[el] = 0;
 
   // menghitung frekuensi setiap elemen
   for (String el in list) {
@@ -31,7 +30,7 @@ void main() {
       // jika ditemukan string yang sama antara input dengan key pada map, maka tambahkan nilai frekuensi dari data tersebut
       if (el == key) {
         test[el] = test[el]! + 1;
-        break; // lanjut ke elemen input berikutnya tanpa membandingkan key selanjutnya karena sudah ditemukan
+        break; // iterasi dilanjutkan ke elemen input berikutnya tanpa membandingkan key selanjutnya
       }
     }
   }

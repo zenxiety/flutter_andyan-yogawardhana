@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() async {
-  //* 1. Fungsi Asinkronus
+  //* 1.1. Fungsi Asinkronus
   List<double> list = []; // list data
 
   stdout.write("Masukkan data list (ketik 'ok' jika selesai):\n");

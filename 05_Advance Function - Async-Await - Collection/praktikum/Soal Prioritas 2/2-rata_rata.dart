@@ -1,23 +1,27 @@
 import 'dart:io';
 
 void main() {
-  //* 2. Rata-Rata Nilai
+  //* 2.2. Rata-Rata Nilai
   List<int> nilaiList = [];
-
-  // jumlah elemen yang akan dimasukkan ke list
-  stdout.write("Jumlah nilai: ");
-  int n = int.parse(stdin.readLineSync()!);
-
   int sum = 0; // jumlah nilai keseluruhan
 
-  // input setiap nilai ke list sekaligus menjumlahkan total nilai
-  for (int i = 0; i < n; i++) {
-    int nilai = (int.parse(stdin.readLineSync()!));
-    nilaiList.add(nilai);
-    sum += nilai;
+  // input setiap elemen nilai
+  stdout.write("Masukkan data list (ketik 'ok' jika selesai):\n");
+  while (true) {
+    String input = stdin.readLineSync()!;
+    // proses input data selesai jika user memasukkan 'ok'
+    if (input.toLowerCase() == 'ok') break;
+
+    // jika input tidak kosong, masukkan ke list
+    if (input != "") {
+      int inputInt = int.parse(input);
+      nilaiList.add(inputInt);
+      sum += inputInt; // tambahkan nilai saat ini ke jumlah nilai
+    }
   }
 
-  int mean = (sum / n).ceil(); // perhitungan rata rata dengan pembulatan keatas
+  // perhitungan rata rata dengan pembulatan keatas
+  int mean = (sum / nilaiList.length).ceil();
 
   stdout.write("$mean\n");
 }

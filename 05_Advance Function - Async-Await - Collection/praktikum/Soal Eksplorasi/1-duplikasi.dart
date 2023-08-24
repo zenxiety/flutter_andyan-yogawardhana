@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  //* E.1. Duplikasi
   List<String> list = [];
 
   // input data setiap elemen ke list
