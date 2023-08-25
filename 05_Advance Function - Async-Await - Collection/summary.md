@@ -35,7 +35,17 @@
   Data dapat ditunggu, membawa return fungsi async  
   Menandakan sebuah function bisa di-await  
   Harus menggunakan await jika dipanggil dari function
+
   > Future< tipe data > (nama fungsi)() {}
+
+- Aplikasi: proses yang butuh waktu => ambil data dari database, internet, user input (biometric)
+- Jika return error seperti Instance..., ada fungsi yang perlu ditunggu
+
+- **Stream**: untuk data yang bersifat realtime
+- **Exception**: return error dan stop proses selanjutnya
+
+- Function **then**: jika function tidak bisa memakai await
+  > await function().then((value) => { function(value) });
 
 ### Collection
 
@@ -46,4 +56,15 @@
 
 - **Map**  
   Menyimpan data secara key-value dengan key sebagai index
+
   > Map< tipe data key, tipe data value > (nama variabel) = {}
+
+- **Set**
+  List tanpa duplikat
+
+- Loop untuk mengiterasi elemen collection (list):
+  > for (var element in list) {}  
+  > list.**forEach**()
+  - Perbedaan: cara pemanggilan async function
+    > for (var el in list) { await function() }  
+    > .foreach((el) async { await function() });
