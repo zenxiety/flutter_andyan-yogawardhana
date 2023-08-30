@@ -4,7 +4,6 @@ import 'Hewan.dart'; // import class Hewan dari file terpisah
 class Mobil {
   double _kapasitas; // property kapasitas yang dapat dibawa mobil
   final List<Hewan> _muatan = []; // property daftar hewan yang dibawa mobil
-  double _totalMuatan = 0; // property berat total hewan yang telah dibawa mobil
   String _nama; // property nama mobil
 
   // constructor class mobil untuk assign property awal
@@ -19,11 +18,9 @@ class Mobil {
   // method untuk menambah muatan hewan yang dibawa mobil
   void tambahMuatan(Hewan hewan) {
     // jika berat hewan yang akan ditambahkan tidak melebihi kapasitas, hewan tersebut akan dimasukkan ke list muatan mobil
-    if (hewan.berat + _totalMuatan <= _kapasitas) {
+    if (hewan.berat + totalMuatan() <= _kapasitas) {
       print("${hewan.nama} dengan berat ${hewan.berat} masuk ke ${_nama}.");
       _muatan.add(hewan);
-      _totalMuatan +=
-          hewan.berat; // menambahkan berat hewan ke total muatan mobil
     }
     // hewan dengan muatan total yang melebihi kapasitas tidak akan dimasukkan ke mobil
     else {
@@ -33,7 +30,16 @@ class Mobil {
   }
 
   // method untuk menghitung total muatan
-  double totalMuatan() => _totalMuatan;
+  double totalMuatan() {
+    double tm = 0;
+    for (Hewan h in _muatan) tm += h.berat;
+    return tm;
+  }
+
+  void daftarMuatan() {
+    print("Daftar Muatan ${_nama}:");
+    for (Hewan h in _muatan) print("${h.nama}: ${h.berat}");
+  }
 
   // getter untuk mendapatkan nama mobil
   String get nama => _nama;

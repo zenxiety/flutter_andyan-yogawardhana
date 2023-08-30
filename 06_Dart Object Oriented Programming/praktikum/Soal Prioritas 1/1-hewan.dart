@@ -5,6 +5,7 @@ void main() {
   Hewan h1 = Hewan("Anjing", 20);
   h1.berat = 40; // implementasi setter untuk berat hewan
 
+  // menampilkan nama dan berat hewan pertama
   print(h1.nama);
   print(h1.berat);
 }

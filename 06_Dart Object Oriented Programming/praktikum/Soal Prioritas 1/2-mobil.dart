@@ -20,5 +20,7 @@ void main() {
   m1.tambahMuatan(h3);
 
   // total muatan yang telah dibawa mobil pertama
-  print("Total Muatan ${m1.nama} = ${m1.totalMuatan()}");
+  print("\nTotal Muatan ${m1.nama} = ${m1.totalMuatan()}");
+  // daftar muatan hewan yang dibawa mobil pertama
+  m1.daftarMuatan();
 }
