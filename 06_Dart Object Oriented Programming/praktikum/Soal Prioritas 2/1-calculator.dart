@@ -3,7 +3,7 @@ import 'CalculatorB.dart'; // import class Calculator kedua dari file terpisah
 
 void main() {
   // object kalkulator pertama dengan property dan constructor
-  CalculatorA cA = CalculatorA(2, 3);
+  final CalculatorA cA = CalculatorA(2, 3);
   print("---- Calculator A ----");
   print("${cA.x} + ${cA.y} = ${cA.add()}");
   print("${cA.x} - ${cA.y} = ${cA.subtract()}");
@@ -11,7 +11,7 @@ void main() {
   print("${cA.x} / ${cA.y} = ${cA.divide()}");
 
   // object kalkulator kedua tanpa property dan constructor
-  CalculatorB cB = CalculatorB();
+  final CalculatorB cB = CalculatorB();
   final double x = 2;
   final double y = 3;
   print("---- Calculator B ----");

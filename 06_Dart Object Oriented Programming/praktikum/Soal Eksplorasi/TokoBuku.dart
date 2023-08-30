@@ -2,8 +2,8 @@ import 'Buku.dart'; // import class Buku dari file terpisah
 
 // struktur class TokoBuku
 class TokoBuku {
-  List<Buku> _daftarBuku = []; // daftar buku yang tersedia di toko buku
-  String _name = "Toko Buku"; // nama toko buku
+  final List<Buku> _daftarBuku = []; // daftar buku yang tersedia di toko buku
+  final String _name; // nama toko buku
 
   // constructor untuk class TokoBuku saat menambahkan toko buku baru
   TokoBuku(this._name);

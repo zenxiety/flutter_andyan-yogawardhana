@@ -1,8 +1,8 @@
 // struktur class kalkulator pertama yang menggunakan property constructor
 class CalculatorA {
   // menyimpan nilai kedua angka di property
-  double _x;
-  double _y;
+  final double _x;
+  final double _y;
 
   // constructor kalkulator untuk inisiasi value dari property
   CalculatorA(this._x, this._y);

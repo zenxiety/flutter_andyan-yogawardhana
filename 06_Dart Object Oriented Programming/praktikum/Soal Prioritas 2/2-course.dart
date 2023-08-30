@@ -3,15 +3,15 @@ import 'Student.dart'; // import class Student dari file terpisah
 
 void main() {
   // inisiasi objects dari class Course
-  Course c1 = Course('C1');
-  c1.deskripsi = "Kelas C1 adalah kelas pertama"; // set deskripsi course
-  Course c2 = Course('C2');
-  Course c3 = Course('C3');
-  Course c4 = Course('C4');
-  c4.deskripsi = "Kelas C1 adalah kelas terakhir"; // set deskripsi course
+  final Course c1 = Course('C1');
+  c1.deskripsi = "Course C1 adalah course pertama"; // set deskripsi course
+  final Course c2 = Course('C2');
+  final Course c3 = Course('C3');
+  final Course c4 = Course('C4');
+  c4.deskripsi = "Course C1 adalah course terakhir"; // set deskripsi course
 
   // inisiasi object pertama dari Student dengan nama dan kelasnya
-  Student s1 = Student('Alex', 'Alpha');
+  final Student s1 = Student('Alex', 'Alpha');
 
   // menambahkan course ke student pertama
   s1.addCourse(c1);
@@ -26,7 +26,7 @@ void main() {
   s1.showCourses();
 
   // inisiasi object kedua dari Student dengan nama dan kelasnya
-  Student s2 = Student('Ben', 'Bravo');
+  final Student s2 = Student('Ben', 'Bravo');
 
   // menambahkan course ke student kedua
   s2.addCourse(c2);

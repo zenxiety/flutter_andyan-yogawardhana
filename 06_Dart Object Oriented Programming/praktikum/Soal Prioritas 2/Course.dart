@@ -1,7 +1,7 @@
 // struktur class Course
 class Course {
   // atribut judul dan deskripsi
-  String _judul;
+  final String _judul;
   String _deskripsi = "";
 
   // constructor class Course untuk property judul dan deskripsi

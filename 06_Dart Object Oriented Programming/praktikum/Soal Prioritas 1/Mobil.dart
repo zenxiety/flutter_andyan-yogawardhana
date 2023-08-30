@@ -4,7 +4,7 @@ import 'Hewan.dart'; // import class Hewan dari file terpisah
 class Mobil {
   double _kapasitas; // property kapasitas yang dapat dibawa mobil
   final List<Hewan> _muatan = []; // property daftar hewan yang dibawa mobil
-  String _nama; // property nama mobil
+  final String _nama; // property nama mobil
 
   // constructor class mobil untuk assign property awal
   Mobil(this._nama, this._kapasitas);

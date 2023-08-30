@@ -3,8 +3,8 @@ import 'Course.dart'; // import class Course dari file terpisah
 // struktur class Student
 class Student {
   // atribut nama, kelas, dan daftar course yang dimiliki Student
-  String _nama;
-  String _kelas;
+  final String _nama;
+  final String _kelas;
   final List<Course> _courses = [];
 
   // constructor class Course untuk property nama dan kelas
