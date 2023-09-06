@@ -1,4 +1,7 @@
 import 'package:eksplorasi_prototype/material_eksplorasi_layout.dart';
+import 'package:eksplorasi_prototype/screens/material_info.dart';
+import 'package:eksplorasi_prototype/screens/material_learn_list.dart';
+import 'package:eksplorasi_prototype/screens/material_search.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +31,13 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyMaterialEksplorasiLayout(),
+      initialRoute: "/",
+      routes: {
+        "/": (_) => const MyMaterialEksplorasiLayout(),
+        "/learn": (_) => const MyMaterialLearnList(),
+        "/search": (_) => const MyMaterialSearch(),
+        "/info": (_) => const MyMaterialInfo(),
+      },
     );
   }
 }

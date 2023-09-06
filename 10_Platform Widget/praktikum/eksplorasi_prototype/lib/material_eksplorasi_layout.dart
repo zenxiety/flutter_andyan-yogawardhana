@@ -1,7 +1,7 @@
-import 'package:eksplorasi_prototype/pages/material_add_list.dart';
-import 'package:eksplorasi_prototype/pages/material_info.dart';
-import 'package:eksplorasi_prototype/pages/material_learn_list.dart';
-import 'package:eksplorasi_prototype/pages/material_search.dart';
+import 'package:eksplorasi_prototype/screens/material_add_list.dart';
+import 'package:eksplorasi_prototype/screens/material_info.dart';
+import 'package:eksplorasi_prototype/screens/material_learn_list.dart';
+import 'package:eksplorasi_prototype/screens/material_search.dart';
 import 'package:flutter/material.dart';
 
 class MyMaterialEksplorasiLayout extends StatefulWidget {
@@ -45,7 +45,7 @@ class _MyMaterialEksplorasiLayoutState
         ],
       ),
       body: SafeArea(
-        child: _widgets.elementAt(_selectedIndex),
+        child: _widgets[_selectedIndex],
       ),
       floatingActionButton: FloatingActionButton(
         tooltip: "Add a Topic",
