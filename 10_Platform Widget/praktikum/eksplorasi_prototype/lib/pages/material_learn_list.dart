@@ -9,7 +9,7 @@ class MyMaterialLearnList extends StatefulWidget {
 
 class _MyMaterialLearnListState extends State<MyMaterialLearnList> {
   final List<Widget> _widget = [];
-  final List<String> _learn = [
+  final List<String> _learn = <String>[
     "Flutter",
     "ReactJS",
     "VueJS",

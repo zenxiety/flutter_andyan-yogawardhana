@@ -17,6 +17,13 @@ class _MyMaterialListState extends State<MyMaterialList> {
     {"name": "Chelsey Dietrich", "phone": "(254)954-1289"},
     {"name": "Mrs. Dennis Schulist", "phone": "1-447-935-8478 x6430"},
     {"name": "Kurtis Weissnat", "phone": "210.067.6132"},
+    {"name": "Leanne Graham", "phone": "1-770 736-8031 x56442"},
+    {"name": "Ervin Howell", "phone": "010-692-6593- x09125"},
+    {"name": "Clementine Bauch", "phone": "1-463-123-4447"},
+    {"name": "Patricia Lebsack", "phone": "493-170-9623 x156"},
+    {"name": "Chelsey Dietrich", "phone": "(254)954-1289"},
+    {"name": "Mrs. Dennis Schulist", "phone": "1-447-935-8478 x6430"},
+    {"name": "Kurtis Weissnat", "phone": "210.067.6132"},
   ];
 
   _MyMaterialListState() {
