@@ -58,7 +58,12 @@
 - `Center` : meletakkan child ke tengah
   - memenuhi ukuran ruang di luarnya
 - `SizedBox` : dapat diatur lebar dan tinggi
+
   - lebih sederhana dari container
+
+- `SingleChildScrollView` : punya behaviour scroll tapi pakai child (bukan children); buat satu widget yang overflow
+
+- `ConstrainedBox`
 
 ### Multi-Child
 
