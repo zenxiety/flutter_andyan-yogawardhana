@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form/contacts.dart';
+import 'package:flutter_form/picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,14 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF6750A4),
           centerTitle: true,
+        ),
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom(
+            foregroundColor: const Color(0xFF6750A4),
+            alignment: Alignment.centerLeft,
+            padding: const EdgeInsets.only(left: 16),
+            textStyle: const TextStyle(fontWeight: FontWeight.w500),
+          ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
@@ -51,7 +60,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const Contacts(),
+      home: const ContactsPage(),
     );
   }
 }
