@@ -23,7 +23,14 @@ class _PickerPageState extends State<PickerPage> {
   }
 
   void _pickFile() async {
-    final result = await FilePicker.platform.pickFiles();
+    final result = await FilePicker.platform.pickFiles(
+      type: FileType.custom,
+      allowedExtensions: [
+        'jpg',
+        'jpeg',
+        'png',
+      ],
+    );
     if (result == null) return;
 
     final file = result.files.first;
@@ -104,7 +111,7 @@ class _PickerPageState extends State<PickerPage> {
           ],
         ),
         Text(
-          DateFormat("dd-MM-yyyy").format(_dueDate),
+          DateFormat("EEEE, dd MMMM yyyy").format(_dueDate),
         )
       ],
     );
