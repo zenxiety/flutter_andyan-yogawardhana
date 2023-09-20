@@ -40,4 +40,7 @@
   > override `initState() { function(); }`
 
 - stop functions yang listening
+
   > override `dispose()`
+
+- jika ada input keyboard, **pakai stateful** dan **jangan pakai column**
