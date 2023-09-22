@@ -6,25 +6,32 @@
 - informasi & mendapat input user
 - helper method `showDialog` di `onPressed`
   > `showDialog(context: context, builder: (context) => AlertDialog())`
+  - popup dialog size : fill safearea
+  - ngambang & behaviour dismissible kalau klik di luar body
 - properti
   - `content` : text, gambar, animasi
   - `actions` : button respon user
+- sudah ada layoutnya dengan `title`, `content`, `action`
 
 ## Bottom Sheet
 
 - dialog yang muncul dari bawah layar
 - fungsi `showModalBottomSheet` di `onpressed`
   > `showModalBottomSheet(context: context, builder: (context) => Container())`
+  - bottomsheet size : setengah layar dari bawah
+  - ngambang & behaviour dismissible kalau klik di luar body (`isDismissible`) atau drag (`enableDrag`)
 - properti : context & builder
+- `showDragHandle` : draggable handle icon
+- `isScrollControlled` : fullscreen
 
-## Task Management App
+## Additional Notes
 
-- tambah dan hapus kegiatan
-- steps:
-  1. membuat **model** informasi yang disimpan di folder models
-  2. membuat task screen di folder screens
-  3. membuat empty screen di folder screens
-  4. membuat `TaskManager` di folder models dengan package **provider**. menambah method `deleteTask` dan `addTask`
-  5. menambah `TaskManager` sebagai provider dengan `MultiProvider()` di main.dart
-  6. (task screen) fungsi `buildTaskScreen` dengan builder body conditional isi `taskModels`
-     > `return Consumer<TaskManager>(builder: (context, manager, child) { condition })`
+- menutup dialog/bottomsheet : button dengan `Navigator.pop(context)`
+- bisa untuk menerima nilai
+  > `final bool value = await showDialog(... Navigator.pop(context, true) ...) ?? false`
+- Cupertino
+  - menambah awareness pilihan di UI
+    - warning
+      > `actions: [ CupertinoDialogAction( isDestructiveAction: true, onPressed:... ) ]`
+    - bold
+      > `actions: [ CupertinoDialogAction( isDefaultAction: true, onPressed:... ) ]`
