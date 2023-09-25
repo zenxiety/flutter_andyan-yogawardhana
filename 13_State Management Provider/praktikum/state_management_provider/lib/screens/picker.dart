@@ -1,5 +1,5 @@
-import 'package:asset_dialog_bottomsheet_navigation/components/appbar.dart';
-import 'package:asset_dialog_bottomsheet_navigation/components/drawer.dart';
+import '/components/appbar.dart';
+import '/components/drawer.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:file_picker/file_picker.dart';

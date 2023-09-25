@@ -1,5 +1,5 @@
-import 'package:asset_dialog_bottomsheet_navigation/screens/messages.dart';
-import 'package:asset_dialog_bottomsheet_navigation/screens/new_message.dart';
+import '/screens/messages.dart';
+import '/screens/new_message.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 

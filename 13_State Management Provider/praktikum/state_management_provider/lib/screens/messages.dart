@@ -1,5 +1,5 @@
-import 'package:asset_dialog_bottomsheet_navigation/components/appbar.dart';
-import 'package:asset_dialog_bottomsheet_navigation/components/drawer.dart';
+import '/components/appbar.dart';
+import '/components/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:provider/provider.dart';

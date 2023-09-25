@@ -1,6 +1,6 @@
-import 'package:asset_dialog_bottomsheet_navigation/components/appbar.dart';
-import 'package:asset_dialog_bottomsheet_navigation/components/drawer.dart';
-import 'package:asset_dialog_bottomsheet_navigation/components/gallery_grid.dart';
+import '/components/appbar.dart';
+import '/components/drawer.dart';
+import '/components/gallery_grid.dart';
 
 import 'package:flutter/material.dart';
 
