@@ -10,6 +10,7 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       title: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
             title,
@@ -22,15 +23,6 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
         ],
       ),
-      actions: <Widget>[
-        IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.view_sidebar,
-            color: Colors.white,
-          ),
-        ),
-      ],
       flexibleSpace: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
