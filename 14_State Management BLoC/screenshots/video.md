@@ -1,3 +1,4 @@
 # Demo Penugasan - Flutter BLoC
 
-<video src="./BLoC - Tugas.mp4" width="1920" height="1080" controls></video>
+https://github.com/zenxiety/flutter_andyan-yogawardhana/assets/65155073/7291af5c-a964-4e0f-a2d6-a725abfe5f4f
+
