@@ -146,7 +146,7 @@ class _ContactsPageState extends State<ContactsPage> {
       final String color = contacts[i]['color']!;
 
       if (date != '') {
-        _dueDate = DateFormat(_dateFormat).parse(date!);
+        _dueDate = DateFormat(_dateFormat).parse(date);
       }
 
       _currentColor = _colorFrom(color);
