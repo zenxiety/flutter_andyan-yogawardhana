@@ -1,0 +1,234 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "flutter_intro",
+      "cwd": "08_Introduction Flutter Widget\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_intro (profile mode)",
+      "cwd": "08_Introduction Flutter Widget\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_intro (release mode)",
+      "cwd": "08_Introduction Flutter Widget\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_intro",
+      "cwd": "09_Installation Command Line Interface and Package Management in Flutter\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_intro (profile mode)",
+      "cwd": "09_Installation Command Line Interface and Package Management in Flutter\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_intro (release mode)",
+      "cwd": "09_Installation Command Line Interface and Package Management in Flutter\\praktikum\\flutter_intro",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "eksplorasi_prototype",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\eksplorasi_prototype",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "eksplorasi_prototype (profile mode)",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\eksplorasi_prototype",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "eksplorasi_prototype (release mode)",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\eksplorasi_prototype",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "widget_layout",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\widget_layout",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "widget_layout (profile mode)",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\widget_layout",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "widget_layout (release mode)",
+      "cwd": "10_Platform Widget and Layout\\praktikum\\widget_layout",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_form",
+      "cwd": "11_Flutter Form and Advanced Form Input\\praktikum\\flutter_form",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_form (profile mode)",
+      "cwd": "11_Flutter Form and Advanced Form Input\\praktikum\\flutter_form",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_form (release mode)",
+      "cwd": "11_Flutter Form and Advanced Form Input\\praktikum\\flutter_form",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "asset_dialog_bottomsheet_navigation",
+      "cwd": "12_ Assets Dialog Bottomsheet Navigation\\praktikum\\asset_dialog_bottomsheet_navigation",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "asset_dialog_bottomsheet_navigation (profile mode)",
+      "cwd": "12_ Assets Dialog Bottomsheet Navigation\\praktikum\\asset_dialog_bottomsheet_navigation",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "asset_dialog_bottomsheet_navigation (release mode)",
+      "cwd": "12_ Assets Dialog Bottomsheet Navigation\\praktikum\\asset_dialog_bottomsheet_navigation",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "state_management_provider_2",
+      "cwd": "13_State Management Provider\\praktikum\\state_management_provider_2",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "state_management_provider_2 (profile mode)",
+      "cwd": "13_State Management Provider\\praktikum\\state_management_provider_2",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "state_management_provider_2 (release mode)",
+      "cwd": "13_State Management Provider\\praktikum\\state_management_provider_2",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "state_management_bloc",
+      "cwd": "14_State Management BLoC\\praktikum\\state_management_bloc",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "state_management_bloc (profile mode)",
+      "cwd": "14_State Management BLoC\\praktikum\\state_management_bloc",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "state_management_bloc (release mode)",
+      "cwd": "14_State Management BLoC\\praktikum\\state_management_bloc",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "flutter_storage",
+      "cwd": "16_Flutter Storage\\praktikum\\flutter_storage",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_storage (profile mode)",
+      "cwd": "16_Flutter Storage\\praktikum\\flutter_storage",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_storage (release mode)",
+      "cwd": "16_Flutter Storage\\praktikum\\flutter_storage",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "dart_restapi",
+      "cwd": "17_Intro and Advance REST API\\praktikum\\dart_restapi",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_restapi",
+      "cwd": "17_Intro and Advance REST API\\praktikum\\flutter_restapi",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_restapi (profile mode)",
+      "cwd": "17_Intro and Advance REST API\\praktikum\\flutter_restapi",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_restapi (release mode)",
+      "cwd": "17_Intro and Advance REST API\\praktikum\\flutter_restapi",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "code_competence_1",
+      "cwd": "Code Competence\\Weekly1\\project\\code_competence_1",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "code_competence_1 (profile mode)",
+      "cwd": "Code Competence\\Weekly1\\project\\code_competence_1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "code_competence_1 (release mode)",
+      "cwd": "Code Competence\\Weekly1\\project\\code_competence_1",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
