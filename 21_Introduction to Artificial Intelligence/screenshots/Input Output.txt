@@ -1,0 +1,32 @@
+Input diambil berdasarkan contoh yang ada di https://platform.openai.com/examples/default-fix-python-bugs.
+Namun, pada contoh tersebut menggunakan Playground dengan mode Chat, sedangkan pada contoh di materi Alta menggunakan mode Complete dengan model text-davinci-003 sehingga input dari contoh tersebut saya copy-paste-kan ke field yang ada di Playground dengan mode Complete sesuai dengan contoh yang ada di materi. 
+Output yang diperoleh merupakan hasil code yang sudah diperbaiki tanpa penjelasan, berbeda dengan contoh yang ada di OpenAI Example, di mana pada contoh tersebut juga memuat penjelasan lebih rinci terkait dengan kesalahan/bugs yang ada di program terkait.
+
+---- INPUT ----
+
+You will be provided with a piece of Python code, and your task is to find and fix bugs in it.
+
+import Random
+a = random.randint(1,12)
+b = random.randint(1,12)
+for i in range(10):
+    question = "What is "+a+" x "+b+"? "
+    answer = input(question)
+    if answer = a*b
+        print (Well done!)
+    else:
+        print("No.")
+
+---- OUTPUT ----
+
+#Fixed code
+import random
+a = random.randint(1,12)
+b = random.randint(1,12)
+for i in range(10):
+    question = "What is "+str(a)+" x "+str(b)+"? "
+    answer = int(input(question))
+    if answer == a*b:
+        print ("Well done!")
+    else:
+        print("No.")
